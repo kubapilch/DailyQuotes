@@ -13,7 +13,6 @@
 		8CA2A4531FBDD99B00CB5EDE /* DailyQuoteViewLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA2A4521FBDD99B00CB5EDE /* DailyQuoteViewLayer.swift */; };
 		8CA2A4551FBDE1CE00CB5EDE /* SavedQuotesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA2A4541FBDE1CE00CB5EDE /* SavedQuotesTableViewController.swift */; };
 		8CB1D39C1F9E84C700BE26C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB1D39B1F9E84C700BE26C5 /* AppDelegate.swift */; };
-		8CB1D3A11F9E84C700BE26C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CB1D39F1F9E84C700BE26C5 /* Main.storyboard */; };
 		8CB1D3A41F9E84C700BE26C5 /* Daily_Quote.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8CB1D3A21F9E84C700BE26C5 /* Daily_Quote.xcdatamodeld */; };
 		8CB1D3A61F9E84C700BE26C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CB1D3A51F9E84C700BE26C5 /* Assets.xcassets */; };
 		8CB1D3A91F9E84C700BE26C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CB1D3A71F9E84C700BE26C5 /* LaunchScreen.storyboard */; };
@@ -33,7 +32,6 @@
 		8CA2A4541FBDE1CE00CB5EDE /* SavedQuotesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedQuotesTableViewController.swift; sourceTree = "<group>"; };
 		8CB1D3981F9E84C700BE26C5 /* Daily Quote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Daily Quote.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CB1D39B1F9E84C700BE26C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8CB1D3A01F9E84C700BE26C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8CB1D3A31F9E84C700BE26C5 /* Daily_Quote.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Daily_Quote.xcdatamodel; sourceTree = "<group>"; };
 		8CB1D3A51F9E84C700BE26C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8CB1D3A81F9E84C700BE26C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -110,7 +108,6 @@
 				8CB86FFB1F9FD59600C495A9 /* ViewController */,
 				8CB86FFA1F9FD57D00C495A9 /* Model */,
 				8CB1D39B1F9E84C700BE26C5 /* AppDelegate.swift */,
-				8CB1D39F1F9E84C700BE26C5 /* Main.storyboard */,
 				8CB86FF61F9FCB4A00C495A9 /* GoogleService-Info.plist */,
 				8CB1D3A51F9E84C700BE26C5 /* Assets.xcassets */,
 				8CB1D3A71F9E84C700BE26C5 /* LaunchScreen.storyboard */,
@@ -207,7 +204,6 @@
 				8CB1D3A91F9E84C700BE26C5 /* LaunchScreen.storyboard in Resources */,
 				8CB86FF71F9FCB4A00C495A9 /* GoogleService-Info.plist in Resources */,
 				8CB1D3A61F9E84C700BE26C5 /* Assets.xcassets in Resources */,
-				8CB1D3A11F9E84C700BE26C5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,14 +279,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8CB1D39F1F9E84C700BE26C5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8CB1D3A01F9E84C700BE26C5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8CB1D3A71F9E84C700BE26C5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
