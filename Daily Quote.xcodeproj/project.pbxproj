@@ -10,6 +10,13 @@
 		8C6419601FA3CF1900958870 /* QuoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C64195F1FA3CF1900958870 /* QuoteView.swift */; };
 		8C6419621FA3D3DF00958870 /* DailyQuoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6419611FA3D3DF00958870 /* DailyQuoteViewController.swift */; };
 		8C6419641FA3DB1500958870 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6419631FA3DB1500958870 /* ApiManager.swift */; };
+		8C9587FA1FC3302B00733560 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C9587F91FC3302B00733560 /* NotificationCenter.framework */; };
+		8C9587FD1FC3302B00733560 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9587FC1FC3302B00733560 /* TodayViewController.swift */; };
+		8C9588001FC3302B00733560 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C9587FE1FC3302B00733560 /* MainInterface.storyboard */; };
+		8C9588041FC3302B00733560 /* Quote Widget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8C9587F81FC3302B00733560 /* Quote Widget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8C95880A1FC335F500733560 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9588091FC335F400733560 /* Color.swift */; };
+		8C95880C1FC3396E00733560 /* ApiMangerLite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C95880B1FC3396E00733560 /* ApiMangerLite.swift */; };
+		8C95880E1FC339B900733560 /* QuoteLite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C95880D1FC339B900733560 /* QuoteLite.swift */; };
 		8CA2A4531FBDD99B00CB5EDE /* DailyQuoteViewLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA2A4521FBDD99B00CB5EDE /* DailyQuoteViewLayer.swift */; };
 		8CA2A4551FBDE1CE00CB5EDE /* SavedQuotesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA2A4541FBDE1CE00CB5EDE /* SavedQuotesTableViewController.swift */; };
 		8CB1D39C1F9E84C700BE26C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB1D39B1F9E84C700BE26C5 /* AppDelegate.swift */; };
@@ -24,10 +31,42 @@
 		E1DF28DC8E705BBDA7943946 /* Pods_Daily_Quote.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EA05960EBD4843290AC4CBB /* Pods_Daily_Quote.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		8C9588021FC3302B00733560 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CB1D3901F9E84C700BE26C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C9587F71FC3302B00733560;
+			remoteInfo = "Quote Widget";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8C9588081FC3302B00733560 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8C9588041FC3302B00733560 /* Quote Widget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		8C64195F1FA3CF1900958870 /* QuoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteView.swift; sourceTree = "<group>"; };
 		8C6419611FA3D3DF00958870 /* DailyQuoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyQuoteViewController.swift; sourceTree = "<group>"; };
 		8C6419631FA3DB1500958870 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		8C9587F81FC3302B00733560 /* Quote Widget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Quote Widget.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C9587F91FC3302B00733560 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		8C9587FC1FC3302B00733560 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		8C9587FF1FC3302B00733560 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		8C9588011FC3302B00733560 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C9588091FC335F400733560 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		8C95880B1FC3396E00733560 /* ApiMangerLite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiMangerLite.swift; sourceTree = "<group>"; };
+		8C95880D1FC339B900733560 /* QuoteLite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteLite.swift; sourceTree = "<group>"; };
 		8CA2A4521FBDD99B00CB5EDE /* DailyQuoteViewLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyQuoteViewLayer.swift; sourceTree = "<group>"; };
 		8CA2A4541FBDE1CE00CB5EDE /* SavedQuotesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedQuotesTableViewController.swift; sourceTree = "<group>"; };
 		8CB1D3981F9E84C700BE26C5 /* Daily Quote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Daily Quote.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +86,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		8C9587F51FC3302B00733560 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C9587FA1FC3302B00733560 /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8CB1D3951F9E84C700BE26C5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -62,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				9EA05960EBD4843290AC4CBB /* Pods_Daily_Quote.framework */,
+				8C9587F91FC3302B00733560 /* NotificationCenter.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -73,6 +121,19 @@
 				CE75F2CE57E8C9FE5667A08B /* Pods-Daily Quote.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		8C9587FB1FC3302B00733560 /* Quote Widget */ = {
+			isa = PBXGroup;
+			children = (
+				8C9587FC1FC3302B00733560 /* TodayViewController.swift */,
+				8C9587FE1FC3302B00733560 /* MainInterface.storyboard */,
+				8C9588011FC3302B00733560 /* Info.plist */,
+				8C9588091FC335F400733560 /* Color.swift */,
+				8C95880B1FC3396E00733560 /* ApiMangerLite.swift */,
+				8C95880D1FC339B900733560 /* QuoteLite.swift */,
+			);
+			path = "Quote Widget";
 			sourceTree = "<group>";
 		};
 		8CA2A4511FBDD98100CB5EDE /* layers */ = {
@@ -87,6 +148,7 @@
 			isa = PBXGroup;
 			children = (
 				8CB1D39A1F9E84C700BE26C5 /* Daily Quote */,
+				8C9587FB1FC3302B00733560 /* Quote Widget */,
 				8CB1D3991F9E84C700BE26C5 /* Products */,
 				61CF22F8E53F8F7D99D48BC3 /* Pods */,
 				39D0CFB56BCA417C5FE93504 /* Frameworks */,
@@ -97,6 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				8CB1D3981F9E84C700BE26C5 /* Daily Quote.app */,
+				8C9587F81FC3302B00733560 /* Quote Widget.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -142,6 +205,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		8C9587F71FC3302B00733560 /* Quote Widget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C9588051FC3302B00733560 /* Build configuration list for PBXNativeTarget "Quote Widget" */;
+			buildPhases = (
+				8C9587F41FC3302B00733560 /* Sources */,
+				8C9587F51FC3302B00733560 /* Frameworks */,
+				8C9587F61FC3302B00733560 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Quote Widget";
+			productName = "Quote Widget";
+			productReference = 8C9587F81FC3302B00733560 /* Quote Widget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		8CB1D3971F9E84C700BE26C5 /* Daily Quote */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8CB1D3AD1F9E84C700BE26C5 /* Build configuration list for PBXNativeTarget "Daily Quote" */;
@@ -152,10 +232,12 @@
 				8CB1D3961F9E84C700BE26C5 /* Resources */,
 				0DA7A94B76759D9FA940D146 /* [CP] Embed Pods Frameworks */,
 				379FBF571E9DA4AE50FE6949 /* [CP] Copy Pods Resources */,
+				8C9588081FC3302B00733560 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				8C9588031FC3302B00733560 /* PBXTargetDependency */,
 			);
 			name = "Daily Quote";
 			productName = "Daily Quote";
@@ -168,10 +250,14 @@
 		8CB1D3901F9E84C700BE26C5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0900;
+				LastSwiftUpdateCheck = 0910;
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Kuba Pilch";
 				TargetAttributes = {
+					8C9587F71FC3302B00733560 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
 					8CB1D3971F9E84C700BE26C5 = {
 						CreatedOnToolsVersion = 9.0.1;
 						ProvisioningStyle = Automatic;
@@ -192,11 +278,20 @@
 			projectRoot = "";
 			targets = (
 				8CB1D3971F9E84C700BE26C5 /* Daily Quote */,
+				8C9587F71FC3302B00733560 /* Quote Widget */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		8C9587F61FC3302B00733560 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C9588001FC3302B00733560 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8CB1D3961F9E84C700BE26C5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -258,6 +353,17 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		8C9587F41FC3302B00733560 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C9587FD1FC3302B00733560 /* TodayViewController.swift in Sources */,
+				8C95880C1FC3396E00733560 /* ApiMangerLite.swift in Sources */,
+				8C95880E1FC339B900733560 /* QuoteLite.swift in Sources */,
+				8C95880A1FC335F500733560 /* Color.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8CB1D3941F9E84C700BE26C5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -278,7 +384,23 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		8C9588031FC3302B00733560 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C9587F71FC3302B00733560 /* Quote Widget */;
+			targetProxy = 8C9588021FC3302B00733560 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
+		8C9587FE1FC3302B00733560 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C9587FF1FC3302B00733560 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
 		8CB1D3A71F9E84C700BE26C5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -290,6 +412,38 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		8C9588061FC3302B00733560 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RGQ23NE93V;
+				INFOPLIST_FILE = "Quote Widget/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JakubPilch.Daily-Quote.Quote-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8C9588071FC3302B00733560 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RGQ23NE93V;
+				INFOPLIST_FILE = "Quote Widget/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JakubPilch.Daily-Quote.Quote-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		8CB1D3AB1F9E84C700BE26C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -401,6 +555,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F2382015ABA65C08EE5848D1 /* Pods-Daily Quote.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RGQ23NE93V;
@@ -417,6 +572,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CE75F2CE57E8C9FE5667A08B /* Pods-Daily Quote.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RGQ23NE93V;
@@ -432,6 +588,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		8C9588051FC3302B00733560 /* Build configuration list for PBXNativeTarget "Quote Widget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C9588061FC3302B00733560 /* Debug */,
+				8C9588071FC3302B00733560 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		8CB1D3931F9E84C700BE26C5 /* Build configuration list for PBXProject "Daily Quote" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
